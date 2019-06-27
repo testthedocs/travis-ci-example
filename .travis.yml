@@ -1,0 +1,19 @@
+---
+language: generic
+dist: xenial
+
+services:
+  - docker
+
+stages:
+  - test
+
+jobs:
+  include:
+    - stage: test
+      script:
+      - docker run -v `pwd`/docs:/srv/test testthedocs/ttd-linkcheck docs
+      - docker run --rm -i -v `pwd`:/lint/input:ro testthedocs/ttd-remark docs
+
+
+
