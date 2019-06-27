@@ -1,4 +1,3 @@
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
@@ -19,6 +18,8 @@
     <a href="https://github.com/testthedocs/travis-ci-example/issues">Request Feature</a>
   </p>
 </p>
+
+[![Build Status](https://travis-ci.org/testthedocs/travis-ci-example.svg?branch=master)](https://travis-ci.org/testthedocs/travis-ci-example)
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
